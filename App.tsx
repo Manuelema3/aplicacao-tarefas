@@ -5,6 +5,7 @@ import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 
 import { THEME } from './src/styles/theme';
 import { TaskCard } from './src/components/TaskCard';
+import { Input } from './src/components/Input';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         
         <View style={styles.content}>
           <Text style={styles.headerTitle}>Minhas Tarefas</Text>
+          <Input />
 
         {/* Chamando o componente criado na pasta components */}
 
